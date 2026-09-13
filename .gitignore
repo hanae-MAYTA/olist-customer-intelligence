@@ -1,0 +1,22 @@
+# Data Olist
+data/
+
+# Power BI temporaires
+power bi/*.pbix.tmp
+~$*.pbix
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Système
+.DS_Store
+Thumbs.db
