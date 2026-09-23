@@ -1,8 +1,13 @@
-# Data Olist
+# Data (public Kaggle dataset, ~190 MB: download it, don't commit it)
 data/
 
-# Power BI temporaires
-power bi/*.pbix.tmp
+# Secrets
+.env
+
+# Power BI: the .pbix embeds the data (too large for GitHub),
+# the versioned file is the .pbit template
+*.pbix
+*.pbix.tmp
 ~$*.pbix
 
 # Python
@@ -14,9 +19,8 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code
+# Editors / OS
 .vscode/
-
-# Système
+.idea/
 .DS_Store
 Thumbs.db
